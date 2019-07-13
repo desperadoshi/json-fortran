@@ -8031,7 +8031,7 @@
 
     type(json_value),pointer :: p
 
-    value = 0
+    ! value = 0
     if ( json%exception_thrown ) then
        if ( present(found) ) found = .false.
        return
@@ -8257,7 +8257,7 @@
 
     type(json_value),pointer :: p
 
-    value = 0.0_RK
+    ! value = 0.0_RK
     if ( json%exception_thrown ) then
         if ( present(found) ) found = .false.
         return
@@ -8733,7 +8733,7 @@
 
     type(json_value),pointer :: p
 
-    value = .false.
+    ! value = .false.
     if ( json%exception_thrown) then
         if ( present(found) ) found = .false.
         return
@@ -9007,7 +9007,7 @@
 
     type(json_value),pointer :: p
 
-    value = CK_''
+    ! value = CK_''
     if ( json%exception_thrown ) then
         if ( present(found) ) found = .false.
         return
