@@ -19,6 +19,11 @@ A Fortran 2008 JSON API
 
 <!-- markdown-toc end -->
 
+NOTE
+----
+
+This repo is forked from the original author. A minor change is done here. It enables the user to provide a value for the circumstances when the iterm is not found in the json file. Such a minor change is a temporary solution to meet my need and for the issue [Adding "default" value to json%get ](https://github.com/jacobwilliams/json-fortran/issues/208). And it will not be in the pull request.
+
 Status
 ------
 [![Build Status](https://img.shields.io/travis/jacobwilliams/json-fortran/master.svg?style=plastic)](https://travis-ci.org/jacobwilliams/json-fortran)
